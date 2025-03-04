@@ -44,23 +44,23 @@ function createTaskElement(task) {
   taskList.appendChild(li);
   taskInput.value = "";
   clickCount++;
-  totalTasks.textContent = "Total tasks: " + clickCount;
+  totalTasks.textContent = `Total tasks: " + ${clickCount}`;
 
   deleteBtn.addEventListener("click", () => {
     deleteBtn.parentElement.remove();
     clickCount--;
-    totalTasks.textContent = "Total tasks: " + clickCount;
+    totalTasks.textContent = `Total tasks: " + ${clickCount}`;
   });
 
   inputCheckBox.addEventListener("change", () => {
     if (inputCheckBox.checked) {
       li.classList.add("completed");
       complete++;
-      completedTasks.textContent = "Completed: " + complete;
+      completedTasks.textContent = `Completed: " + ${complete}`;
     } else {
       li.classList.remove("completed");
       complete--;
-      completedTasks.textContent = "Completed: " + complete;
+      completedTasks.textContent = `Completed: " + ${complete}`;
     }
   });
 }
