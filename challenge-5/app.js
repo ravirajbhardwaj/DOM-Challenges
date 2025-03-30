@@ -107,6 +107,7 @@ function stopAutoPlay() {
   clearInterval(autoPlayInterval);
   autoPlayInterval = null;
   autoPlayBtn.textContent = "Start Auto Play";
+  timerDisplay.innerText = "";
 }
 
 function updateTimer() {
