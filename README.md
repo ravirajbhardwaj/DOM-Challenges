@@ -88,16 +88,6 @@
 - The indicator for the active image should be highlighted.
 - Clicking an indicator should navigate directly to the corresponding image.
 
-# Chai Code JS DOM Challenges
-
-### 🚨 Important Instructions
-
-- Ensure that you meet all the specified requirements for each challenge. These are mandatory, but you are free to add extra features.
-- You may customize the UI as you like, as long as it adheres to all given requirements.
-- Creative solutions are encouraged!
-- Use only HTML, CSS, and JavaScript—frameworks and libraries are not allowed.
-- Share your learnings from these challenges in a blog format
-
 ## Challenge 6: Enhanced Clock ⏰
 
 ### Digital Clock Display
