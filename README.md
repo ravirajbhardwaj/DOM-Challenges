@@ -1,4 +1,4 @@
-# Chai Code JS DOM Challenges
+# JS DOM Challenges [10 Project]
 
 ### 🚨 Important Instructions
 
